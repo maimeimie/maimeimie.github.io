@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    max-width: 2280px;
+    margin: 0 auto;
+}
+
+nav {
+    background: url('/WebDevST/image/Logo-real2.svg') no-repeat;
+    background-size: 140px;
+    background-position-y: center;
+    align-items: center;
+    justify-content: end;
+    background-color: #2f2f30;
+    padding: 3rem;
+    display: flex;
+}
+
+.nav-btn {
+    width: 350px;
+}
+.nav-btn a {
+    margin-right: 5px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.container2 {
+    max-width: 2280px;
+    margin: 0 auto;
+}
+
+.logo-body {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.header-btn {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.header-btn a {
+    font-size: 30px;
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+    background-color: #cbcefc;
+    border-radius: 10px;
+    height: 300px;
+    width: 275px;
+    text-align: center;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    background: linear-gradient(20deg,#431d72,#000938);
+}
+
+.Back {
+    background: url('/WebDevST/image/logout_bb4.png') no-repeat;
+    background-size: 80px;
+    background-position-x: center;
+    background-position-y: 40px;
+    align-items: center;
+}
+
+.container {
+    background-color: rgb(187, 180, 248);
+}
+
+.footer{
+	background-color: #24262b;
+    padding: 15px 0;
+    margin-top: 800px;
+}
+
+.footer-col{
+    height: max-content;
+    width: 25%;
+    height: 100%;
+    padding: 0 15px;
+}
+
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footer-cop {
+    color: #ffffff;
+}

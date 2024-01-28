@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Sarabun', sans-serif;
+}
+.container {
+    max-width: 2280px;
+    margin: 0 auto;
+}
+nav {
+    background: url('/WebDevTC/image/Logo-real.svg') no-repeat;
+    background-size: 140px;
+    background-position-y: center;
+    align-items: center;
+    justify-content: end;
+    background-color: #000000;
+    padding: 2rem;
+    display: flex;
+}
+
+.nav-btn {
+    width: 350px;
+}
+.nav-btn a {
+    margin-right: 5px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.container2 {
+    max-width: 2280px;
+    margin: 0 auto;
+}
+
+.logo-body {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    scale: 180%;
+}
+
+.header-b {
+    height: max-content;
+    padding: 10rem;
+    background: url('/WebDevTC/image/กลางคืน 2.svg') no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.header-btn {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.header-btn a {
+    font-size: 30px;
+    margin-right: 50px;
+    padding-top: 100px;
+    text-decoration: none;
+    color: black;
+    background-color: #ffffff;
+    border-radius: 15px;
+    height: 350px;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.เวลาเข้าเรียน {
+    background: url('/WebDevTC/image/student_b1.png') no-repeat;
+    background-size: 80px;
+    background-position-x: center;
+    background-position-y: 70px;
+    align-items: center;
+}
+
+.เกณฑ์การเรียน {
+    background: url('/WebDevTC/image/teacher_b2.png') no-repeat;
+    background-size: 80px;
+    background-position-x: center;
+    background-position-y: 70px;
+    align-items: center;
+}
+
+.คะแนนประจำวิชา {
+    background: url('/WebDevTC/image/test_b3.png') no-repeat;
+    background-size: 80px;
+    background-position-x: center;
+    background-position-y: 70px;
+    align-items: center;
+}
+
+.Log-out {
+    background: url('/WebDevTC/image/logout_1828427.png') no-repeat;
+    background-size: 80px;
+    background-position-x: center;
+    background-position-y: 70px;
+    align-items: center;
+}
+
+html {
+    height: 100%;
+}
+
+body{
+	font-family: 'Sarabun', sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+	background-color: #24262b;
+    padding: 15px 0;
+}
+
+.footer-col{
+    height: max-content;
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footer-cop {
+    color: #ffffff;
+}
+
+@media(max-width: 574px){
+    .logo-body{
+    width: 50%;
+    }
+    }
+
+    @media(max-width: 1366px){
+        .header-btn {
+            display: grid;
+            grid-template-columns: repeat(8 , 1fr);
+            gap: 1px;
+            scale: 90%;
+     }
+    }
+
+    @media(max-width: 1200px){
+        .logo-body{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        }
+        }
+
+    @media(max-width: 1200px){
+        .header-b {
+        justify-content: center;
+        background-size: cover;
+        max-height: fit-content;
+     }
+    }
+    
+    @media(max-width: 1200px){
+        .header-btn {
+        display: grid;
+        grid-template-columns: repeat(4 , 1fr);
+        gap: 3rem;
+        margin-left: 130px;
+        margin-top: 40px;
+        scale: 120%;
+     }
+     
+    }
+
+        @media(max-width: 1200px){
+        .footer-col{
+        width: 100%;
+        max-height: fit-content;
+     }
+    }
+
+    @media(max-width: 768px){
+        .header-btn {
+        display: grid;
+        grid-template-columns: repeat(1 , 5fr);
+        gap: 1rem;
+        margin-left: 50px;
+     }
+    }
+
+
+@media(max-width: 767px){
+    .nav-btn a{
+    width: 100%;
+ }
+}
+
+@media(max-width: 574px){
+    .nav-btn{
+    width: 40%;
+    }
+    }
+    
+    @media(max-width: 767px){
+        .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+     }
+    }
+
+@media(max-width: 574px){
+.footer-col{
+    width: 100%;
+    bottom: 0;
+}
+}
